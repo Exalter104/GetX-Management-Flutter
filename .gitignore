@@ -19,8 +19,10 @@ doc/api/
 *.js_
 *.js.deps
 *.js.map
-/linux
-/macos
-/test
+/ios
+/windows
 /web
-/window
+/linux
+/.dart_tool
+/.vscode
+/android
