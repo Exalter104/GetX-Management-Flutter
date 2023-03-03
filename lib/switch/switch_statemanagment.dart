@@ -1,6 +1,7 @@
-import 'package:ai_genie/switch/switch_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+
+import 'switch_controller.dart';
 
 class SwitchesStateMAnagment extends StatefulWidget {
   const SwitchesStateMAnagment({super.key});
