@@ -14,6 +14,7 @@ class _FaveritStatManagmentState extends State<FaveritStatManagment> {
   Favourit fv = Get.put(Favourit());
   @override
   Widget build(BuildContext context) {
+    // ignore: avoid_print
     print("Rebuild GetX");
     return Scaffold(
       appBar: AppBar(

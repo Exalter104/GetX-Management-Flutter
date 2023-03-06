@@ -1,6 +1,7 @@
-import 'package:ai_genie/switch/switch_statemanagment.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/get_navigation.dart';
+
+import 'GetXApis/login_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,6 +18,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: const SwitchesStateMAnagment());
+        home: const LoginView());
   }
 }
